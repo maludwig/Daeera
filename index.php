@@ -38,6 +38,7 @@
 				$(".chatBubble").attr("src", "img/home/s_talk_" + picIndex + ".png");
 			});
 		</script>
+	<?php include("fragments/footer-all.php"); ?>
 </body>
 
 </html>

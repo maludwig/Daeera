@@ -25,6 +25,7 @@
 			</div>
 		</div>
 
+	<?php include("fragments/footer-all.php"); ?>
 </body>
 
 </html>
