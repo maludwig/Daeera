@@ -1,4 +1,32 @@
 // main: style.less
+
+
+@portfolio-nav-button-width: 172px;
+@portfolio-nav-button-height: 64px;
+
+.portfolio-nav-column(@x) {
+	background-position: @x*@portfolio-nav-button-width @portfolio-nav-button-height*2;
+	&:hover {
+		background-position: @x*@portfolio-nav-button-width @portfolio-nav-button-height;
+	}
+	&.active {
+		background-position: @x*@portfolio-nav-button-width 0px;
+	}
+}
+
+.arrow-right {
+	display: inline-block;
+	width: 34px;
+	height: 24px;
+	margin: 20px 4px;
+	background: url("../img/portfolio/nav/arrow-right.gif");
+	background-position: 100px 100px;
+	background-repeat: no-repeat;
+	&.active {
+		background-position: 0px 0px;
+	}
+}
+
 .portfolio-item {
 	margin-bottom: 25px;
 }
@@ -6,62 +34,30 @@
 .portfolio-nav-pic {
 	width: 172px;
 	height: 64px;
-	margin: 10px 0;
-	display: block;
+	margin: 3px 0;
+	display: inline-block;
 	background-repeat: no-repeat;
+	background: url("../img/portfolio/nav/port-full.png");
 	&.featured {
-		background: url("../img/portfolio/nav/featured.png");
-		&:hover {
-			background: url("../img/portfolio/nav/featured_hov.png");
-		}
-		&.active {
-			background: url("../img/portfolio/nav/featured_curr.png");
-		}
+		.portfolio-nav-column(1);
 	}
 	&.animation {
-		background: url("../img/portfolio/nav/animate.PNG");
-		&:hover {
-			background: url("../img/portfolio/nav/animate_hov.gif");
-		}
-		&.active {
-			background: url("../img/portfolio/nav/animate_curr.PNG");
-		}
+		.portfolio-nav-column(2);
 	}
 	&.char-dsgn {
-		background: url("../img/portfolio/nav/char_dsgn.PNG");
-		&:hover {
-			background: url("../img/portfolio/nav/char_dsgn_hov.gif");
-		}
-		&.active {
-			background: url("../img/portfolio/nav/char_dsgn_curr.PNG");
-		}
+		.portfolio-nav-column(3);
 	}
 	&.digi-paint {
-		background: url("../img/portfolio/nav/digi_paint.PNG");
-		&:hover {
-			background: url("../img/portfolio/nav/digi_paint_hov.gif");
-		}
-		&.active {
-			background: url("../img/portfolio/nav/digi_paint_curr.PNG");
-		}
+		.portfolio-nav-column(4);
+	}
+	&.game-dsgn {
+		.portfolio-nav-column(5);
 	}
 	&.pixl-art {
-		background: url("../img/portfolio/nav/pixl_art.PNG");
-		&:hover {
-			background: url("../img/portfolio/nav/pixl_art_hov.gif");
-		}
-		&.active {
-			background: url("../img/portfolio/nav/pixl_art_curr.PNG");
-		}
+		.portfolio-nav-column(6);
 	}
 	&.sketch {
-		background: url("../img/portfolio/nav/sketch.PNG");
-		&:hover {
-			background: url("../img/portfolio/nav/sketch_hov.gif");
-		}
-		&.active {
-			background: url("../img/portfolio/nav/sketch_curr.PNG");
-		}
+		.portfolio-nav-column(7);
 	}
 }
 

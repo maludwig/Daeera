@@ -1,4 +1,31 @@
 // main: style.less
+
+@nav-button-width: 172px;
+@nav-button-height: 64px;
+
+.arrow-down {
+	display: block;
+	width: 24px;
+	height: 32px;
+	margin: 2px auto;
+	background: url("../img/nav/arrow_down.gif");
+	background-position: 100px 100px;
+	background-repeat: no-repeat;
+	&.active {
+		background-position: 0px 0px;
+	}
+}
+
+.nav-column(@x) {
+	background-position: @x*@nav-button-width @nav-button-height*2;
+	&:hover {
+		background-position: @x*@nav-button-width @nav-button-height;
+	}
+	&.active {
+		background-position: @x*@nav-button-width 0px;
+	}
+}
+
 #logo img {
 	display: block;
 	margin: 20px auto;
@@ -13,63 +40,28 @@
 }
 
 .navpic {
-	width: 172px;
-	height: 65px;
+	width: @nav-button-width;
+	height: @nav-button-height;
 	cursor: pointer;
 	background-repeat: no-repeat;
 	margin: 2px auto;
+	background: url("../img/nav/full.png");
 	&.home {
-		background: url("../img/nav/home.PNG");
-		&:hover {
-			background: url("../img/nav/home_hov.gif");
-		}
-		&.active {
-			background: url("../img/nav/home_curr.PNG");
-		}
+		.nav-column(1);
 	}
 	&.about {
-		background: url("../img/nav/about.PNG");
-		&:hover {
-			background: url("../img/nav/about_hov.gif");
-		}
-		&.active {
-			background: url("../img/nav/about_curr.PNG");
-		}
-	}
-	&.contact {
-		background: url("../img/nav/contact.PNG");
-		&:hover {
-			background: url("../img/nav/contact_hov.gif");
-		}
-		&.active {
-			background: url("../img/nav/contact_curr.PNG");
-		}
-	}
-	&.blog {
-		background: url("../img/nav/blog.PNG");
-		&:hover {
-			background: url("../img/nav/blog_hov.gif");
-		}
-		&.active {
-			background: url("../img/nav/blog_curr.PNG");
-		}
+		.nav-column(0);
 	}
 	&.portfolio {
-		background: url("../img/nav/portfolio.PNG");
-		&:hover {
-			background: url("../img/nav/portfolio_hov.gif");
-		}
-		&.active {
-			background: url("../img/nav/portfolio_curr.PNG");
-		}
+		.nav-column(2);
+	}
+	&.blog {
+		.nav-column(4);
+	}
+	&.contact {
+		.nav-column(3);
 	}
 	&.affiliates {
-		background: url("../img/nav/affiliates.PNG");
-		&:hover {
-			background: url("../img/nav/affiliates_hov.PNG");
-		}
-		&.active {
-			background: url("../img/nav/affiliates_curr.PNG");
-		}
+		.nav-column(5);
 	}
 }

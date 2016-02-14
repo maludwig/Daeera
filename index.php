@@ -14,14 +14,14 @@
 			<div class="col-md-1 hidden-sm hidden-xs">
 			</div>
 			<div class="hidden-sm hidden-xs col-md-2 social-column">
-				<a href='http://daeera.deviantart.com/' target="_blank"><img src='img/home/devient_art.png' /></a>
+				<a href='http://www.daeera.newgrounds.com/' target="_blank"><img src='img/home/newgrounds.png' /></a>
 				<a href='https://www.youtube.com/channel/UCRjnrJirZCUldO5RkMB6Jiw' target="_blank"><img src='img/home/youtube.png' /></a>
-				<a href='https://www.youtube.com/playlist?list=PLmykU6hzTPFQ4i0Se_cIQxInYQU43xkKJ' target="_blank"><img src='img/home/podcast.png' /></a>
+				<a href='https://www.facebook.com/UnproductiveMeetings' target="_blank"><img src='img/home/podcast.png' /></a>
 			</div>
 			<div class="hidden-md hidden-lg social-bar">
-				<a href='http://daeera.deviantart.com/' target="_blank"><img src='img/home/devient_art.png' /></a>
+				<a href='http://www.daeera.newgrounds.com/' target="_blank"><img src='img/home/newgrounds.png' /></a>
 				<a href='https://www.youtube.com/channel/UCRjnrJirZCUldO5RkMB6Jiw' target="_blank"><img src='img/home/youtube.png' /></a>
-				<a href='https://www.youtube.com/playlist?list=PLmykU6hzTPFQ4i0Se_cIQxInYQU43xkKJ' target="_blank"><img src='img/home/podcast.png' /></a>
+				<a href='https://www.facebook.com/UnproductiveMeetings' target="_blank"><img src='img/home/podcast.png' /></a>
 			</div>
 			<div class="col-md-2 hidden-sm hidden-xs">
 			</div>
@@ -34,7 +34,7 @@
 		</section>
 		<script>
 			$(function () {
-				var picIndex = Math.ceil(Math.random() * 5);
+				var picIndex = Math.ceil(Math.random() * 7);
 				$(".chatBubble").attr("src", "img/home/s_talk_" + picIndex + ".png");
 			});
 		</script>

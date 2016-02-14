@@ -60,11 +60,13 @@
 				
 				<div>
 					<h3>BIO:</h3>
-					<p>Adam Tarek Muhieddine is a Lebanese Canadian born and raised in Calgary, Alberta. He is a visual artist who takes influence from retro video-games. Currently practicing digital painting, pixel art, character design and animation (having been introduced to it when he joined the 2011 QuickDraw Animation Society's Youth Animation Project). He also enjoys game design as a hobby and has a keen eye for it, but he doesn't like to program.</p>
+					<p>Adam Tarek Muhieddine is a Lebanese Canadian born and raised in Calgary, Alberta. He is a visual artist who takes heavy influence from retro video-games. He current practice includes digital painting, pixel art, character design and animation (having been introduced to it when he joined the 2011 QuickDraw Animation Society's Youth Animation Project). When it's not required to have programming knowledge, he also enjoys creating games as an occasional hobby and has a keen eye for good game design.</p>
 
-					<p>As an emerging artist, Adam has had some successes with his work being shown on Indiegogo, at the Kensington Plaza Theatre in Calgary, on SHAW Digital Cable and at the Melbourne International Film Festival in Australia. Adam also partakes in the annual QuickDraw Animation Lockdown to make animations done in a tight 48 hour time restraint.</p>
+					<p>As an emerging artist and animator, Adam has had some successes with his work being shown in an Indiegogo campaign, at the Kensington Plaza Theatre in Calgary, on SHAW Digital Cable and at the Melbourne International Film Festival in Australia. Adam also partakes in the annual QuickDraw Animation Lockdown to create animations done under a tight 48 hour time restraint.</p>
 
-					<p>When he's not working on art or making a game project, Adam loves to play and collect video-games, usually of the retro variety. With his favorite being Super Smash Bros, for the Nintendo 64. Adam also makes the occasional "sorta" video-game podcast with his friends (Unproductive Meetings on YouTube) where they game, laugh and discuss a variety of useless, but vaugely interesting subjects.</p>
+					<p>When he's not working on art or making a game project, Adam loves to play and collect video-games, usually of the retro variety. With his favorite being Super Smash Bros, for the Nintendo 64. Adam also makes the occasional "sorta" video-game podcast with his friends (Unproductive Meetings on YouTube) where they game, laugh and discuss a variety of useless, but vaguely interesting subjects.</p>
+					
+					<p>Adam's mission as an artist is to explore the use of the video-game medium in his art and animation to break the negative stigmas that have been set against video-games.</p>
 				</div>
 			</div>
 

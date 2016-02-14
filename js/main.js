@@ -11,6 +11,18 @@ $(function () {
 		var pane = $(this).data("pane");
 		activate(pane);
 	});
+	$(".portfolio-nav-pic").hover(function() {
+		$(".arrow-right").removeClass("active");
+		$(this).prev().addClass("active");
+	}, function() {
+		$(".arrow-right").removeClass("active");
+	});
+	$(".navpic").hover(function() {
+		$(".arrow-down").removeClass("active");
+		$(this).prev().addClass("active");
+	}, function() {
+		$(".arrow-down").removeClass("active");
+	});
 });
 
 function activate(pane) {

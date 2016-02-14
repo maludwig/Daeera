@@ -20,7 +20,7 @@
 			</div>
 			<div class="hidden-lg hidden-md col-xs-1"></div>
 			<div class="col-md-5 col-xs-9">
-				<img class="img-ressponsive" src="img/home/SakuruMIRRORED.png" />
+				<img class="img-responsive" src="img/home/Sakuru.png" />
 			</div>
 			<div class="col-md-5 col-xs-12">
 				<h2>Title</h2>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="hidden-lg hidden-md col-xs-1"></div>
 			<div class="col-md-5 col-xs-9">
-				<img class="img-ressponsive" src="img/home/SakuruMIRRORED.png" />
+				<img class="img-responsive" src="img/home/Sakuru.png" />
 			</div>
 			<div class="col-md-5 col-xs-12">
 				<h2>Title</h2>
@@ -55,7 +55,7 @@
 			</div>
 			<div class="hidden-lg hidden-md col-xs-1"></div>
 			<div class="col-md-5 col-xs-9">
-				<img class="img-ressponsive" src="img/home/SakuruMIRRORED.png" />
+				<img class="img-responsive" src="img/home/Sakuru.png" />
 			</div>
 			<div class="col-md-5 col-xs-12">
 				<h2>Title</h2>

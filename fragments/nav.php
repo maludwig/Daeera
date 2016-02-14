@@ -14,21 +14,27 @@
 		<div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
 				<li class="col-sm-4 col-lg-2">
+					<div class="arrow-down"></div>
 					<a href="./" class="navpic home"></a>
 				</li>
 				<li class="col-sm-4 col-lg-2">
+					<div class="arrow-down"></div>
 					<a href="about" class="navpic about"></a>
 				</li>
 				<li class="col-sm-4 col-lg-2">
+					<div class="arrow-down"></div>
 					<a href="portfolio" class="navpic portfolio"></a>
 				</li>
 				<li class="col-sm-4 col-lg-2">
+					<div class="arrow-down"></div>
 					<a href="blog" class="navpic blog"></a>
 				</li>
 				<li class="col-sm-4 col-lg-2">
+					<div class="arrow-down"></div>
 					<a href="contact" class="navpic contact"></a>
 				</li>
 				<li class="col-sm-4 col-lg-2">
+					<div class="arrow-down"></div>
 					<a href="affiliates" class="navpic affiliates"></a>
 				</li>
 			</ul>
