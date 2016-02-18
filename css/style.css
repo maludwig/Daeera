@@ -210,6 +210,138 @@ body {
   height: 60px;
   background-color: #000;
 }
+.tile {
+  display: inline-block;
+  margin: 10px;
+}
+.affiliatespic {
+  display: block;
+  width: 99px;
+  height: 64px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background: url("../img/affiliates/affiliates.png");
+}
+.affiliatespic.attainable {
+  background-position: 1881px 0;
+}
+.affiliatespic.attainable:hover {
+  background-position: 1881px 64px;
+}
+.affiliatespic.mitchell {
+  background-position: 1386px 0;
+}
+.affiliatespic.mitchell:hover {
+  background-position: 1386px 64px;
+}
+.affiliatespic.emily {
+  background-position: 1287px 0;
+}
+.affiliatespic.emily:hover {
+  background-position: 1287px 64px;
+}
+.affiliatespic.avery {
+  background-position: 1782px 0;
+}
+.affiliatespic.avery:hover {
+  background-position: 1782px 64px;
+}
+.affiliatespic.gus {
+  background-position: 1683px 0;
+}
+.affiliatespic.gus:hover {
+  background-position: 1683px 64px;
+}
+.affiliatespic.thomas {
+  background-position: 1584px 0;
+}
+.affiliatespic.thomas:hover {
+  background-position: 1584px 64px;
+}
+.affiliatespic.derek {
+  background-position: 1485px 0;
+}
+.affiliatespic.derek:hover {
+  background-position: 1485px 64px;
+}
+.affiliatespic.corydp {
+  background-position: 1089px 0;
+}
+.affiliatespic.corydp:hover {
+  background-position: 1089px 64px;
+}
+.affiliatespic.nigzblackman {
+  background-position: 990px 0;
+}
+.affiliatespic.nigzblackman:hover {
+  background-position: 990px 64px;
+}
+.affiliatespic.myan {
+  background-position: 891px 0;
+}
+.affiliatespic.myan:hover {
+  background-position: 891px 64px;
+}
+.affiliatespic.newgameplus {
+  background-position: 792px 0;
+}
+.affiliatespic.newgameplus:hover {
+  background-position: 792px 64px;
+}
+.affiliatespic.pixelsofmind {
+  background-position: 693px 0;
+}
+.affiliatespic.pixelsofmind:hover {
+  background-position: 693px 64px;
+}
+.affiliatespic.quickdraw {
+  background-position: 594px 0;
+}
+.affiliatespic.quickdraw:hover {
+  background-position: 594px 64px;
+}
+.affiliatespic.tkl {
+  background-position: 495px 0;
+}
+.affiliatespic.tkl:hover {
+  background-position: 495px 64px;
+}
+.affiliatespic.uzunow {
+  background-position: 396px 0;
+}
+.affiliatespic.uzunow:hover {
+  background-position: 396px 64px;
+}
+.affiliatespic.hoover {
+  background-position: 297px 0;
+}
+.affiliatespic.hoover:hover {
+  background-position: 297px 64px;
+}
+.affiliatespic.nickj {
+  background-position: 198px 0;
+}
+.affiliatespic.nickj:hover {
+  background-position: 198px 64px;
+}
+.affiliatespic.amyc {
+  background-position: 99px 0;
+}
+.affiliatespic.amyc:hover {
+  background-position: 99px 64px;
+}
+.affiliatespic.amandan {
+  background-position: 1980px 0;
+}
+.affiliatespic.amandan:hover {
+  background-position: 1980px 64px;
+}
+.affiliatespic.jad {
+  background-position: 1188px 0;
+}
+.affiliatespic.jad:hover {
+  background-position: 1188px 64px;
+}
 body {
   margin: 0;
   padding: 0;

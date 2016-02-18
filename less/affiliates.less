@@ -1,0 +1,87 @@
+// main: style.less
+
+@affiliates-button-width: 99px;
+@affiliates-button-height: 64px;
+
+
+.affiliates-column(@x) {
+	background-position: @x*@affiliates-button-width 0;
+	&:hover {
+		background-position: @x*@affiliates-button-width @affiliates-button-height;
+	}
+}
+
+.tile {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.affiliatespic {
+    display:block;
+	width: @affiliates-button-width;
+	height: @affiliates-button-height;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background: url("../img/affiliates/affiliates.png");
+	&.attainable {
+		.affiliates-column(19);
+	}
+	&.mitchell {
+		.affiliates-column(14);
+	}
+	&.emily {
+		.affiliates-column(13);
+	}
+	&.avery {
+		.affiliates-column(18);
+	}
+	&.gus {
+		.affiliates-column(17);
+	}
+	&.thomas {
+		.affiliates-column(16);
+	}
+    &.derek {
+		.affiliates-column(15);
+	}
+    &.corydp {
+		.affiliates-column(11);
+	}
+    &.nigzblackman {
+		.affiliates-column(10);
+	}
+    &.myan {
+		.affiliates-column(9);
+	}
+    &.newgameplus {
+		.affiliates-column(8);
+	}
+    &.pixelsofmind {
+		.affiliates-column(7);
+	}
+    &.quickdraw {
+		.affiliates-column(6);
+	}
+    &.tkl {
+		.affiliates-column(5);
+	}
+    &.uzunow {
+		.affiliates-column(4);
+	}
+    &.hoover {
+		.affiliates-column(3);
+	}
+    &.nickj {
+		.affiliates-column(2);
+	}
+    &.amyc {
+		.affiliates-column(1);
+	}    
+    &.amandan {
+		.affiliates-column(20);
+	}
+    &.jad {
+		.affiliates-column(12);
+	}
+}
